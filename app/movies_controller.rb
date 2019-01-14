@@ -45,7 +45,7 @@ Movie.all.size
 end
 
 def can_find_the_first_item_from_the_database_using_id
-  __
+  Movie.find[1]
 end
 
 def can_find_by_multiple_attributes
